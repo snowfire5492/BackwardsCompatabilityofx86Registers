@@ -28,12 +28,9 @@
 	.model flat
 	.code
 	main	proc
-			mov ax, 7			; lower 16bits 
-of EAX register 
-			mov bx, 8			; lower 16bits 
-of EBX register
-			mov cx, 9			; lower 16bits 
-of ECX register
+			mov ax, 7			; lower 16bits of EAX register 
+			mov bx, 8			; lower 16bits of EBX register
+			mov cx, 9			; lower 16bits of ECX register
 			ret
 	main	endp
 	end		main
